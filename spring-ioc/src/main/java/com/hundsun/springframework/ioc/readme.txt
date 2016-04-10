@@ -1,0 +1,1 @@
+class naming rule: 3_1:since spring 3.1
