@@ -1,4 +1,4 @@
-package com.hundsun.springframework.ioc.replace;
+package com.thousun.springframework.ioc.replace;
 
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;

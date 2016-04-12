@@ -1,4 +1,4 @@
-package com.hundsun.springframework.ioc.lookup;
+package com.thousun.springframework.ioc.lookup;
 
 public abstract class GetBeanTest {
 	

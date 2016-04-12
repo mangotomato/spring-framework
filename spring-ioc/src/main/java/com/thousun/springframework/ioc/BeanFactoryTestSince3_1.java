@@ -1,4 +1,4 @@
-package com.hundsun.springframework.ioc;
+package com.thousun.springframework.ioc;
 
 import junit.framework.Assert;
 

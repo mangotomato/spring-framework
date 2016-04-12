@@ -1,4 +1,4 @@
-package com.hundsun.springframework.ioc.replace;
+package com.thousun.springframework.ioc.replace;
 
 public class TestChangeMethod {
 	

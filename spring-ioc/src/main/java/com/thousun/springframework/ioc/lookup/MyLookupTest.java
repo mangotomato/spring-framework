@@ -1,4 +1,4 @@
-package com.hundsun.springframework.ioc.lookup;
+package com.thousun.springframework.ioc.lookup;
 
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;

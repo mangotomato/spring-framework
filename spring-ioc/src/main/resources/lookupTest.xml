@@ -3,10 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="getBeanTest" class="com.hundsun.springframework.ioc.lookup.GetBeanTest">
+	<bean id="getBeanTest" class="com.thousun.springframework.ioc.lookup.GetBeanTest">
 		<lookup-method name="getBean" bean="student"/>
 	</bean>
 	
-	<bean id="teacher" class="com.hundsun.springframework.ioc.lookup.Teacher"/>
-	<bean id="student" class="com.hundsun.springframework.ioc.lookup.Student"/>
+	<bean id="teacher" class="com.thousun.springframework.ioc.lookup.Teacher"/>
+	<bean id="student" class="com.thousun.springframework.ioc.lookup.Student"/>
 </beans>

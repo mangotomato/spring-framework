@@ -2,8 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-
-	<bean id="myTestBean" class="com.hundsun.springframework.ioc.MyTestBean" name="a"/>
+	
+	<bean id="myTestBean"  class="com.thousun.springframework.ioc.MyTestBean"  scope="singleton" depends-on="depend">
+		<property name="depend" ref="depend"/>
+	</bean>
+	
+	<bean id="depend" class="com.thousun.springframework.ioc.DependOn"/>
 	
 </beans>

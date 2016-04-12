@@ -1,4 +1,4 @@
-package com.hundsun.springframework.ioc;
+package com.thousun.springframework.ioc;
 
 import junit.framework.Assert;
 
@@ -13,6 +13,8 @@ public class BeanFactoryTest {
 	public void testSimpleLoad() {
 		BeanFactory bf = new XmlBeanFactory((new ClassPathResource("beans.xml")));
 		MyTestBean bean = (MyTestBean) bf.getBean("myTestBean");
+		
+		System.out.println(bean.getDepend());
 		Assert.assertEquals("testStr", bean.getTestStr());
 	}
 }
